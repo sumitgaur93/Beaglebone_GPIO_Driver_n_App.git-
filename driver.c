@@ -5,7 +5,6 @@
 #include <linux/fs.h>
 #include <linux/cdev.h>
 #include <linux/device.h>
-#include<linux/slab.h>                 //kmalloc()
 #include<linux/uaccess.h>              //copy_to/from_user()
 #include<linux/gpio.h>
 
